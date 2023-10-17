@@ -1,0 +1,39 @@
+extends layout
+
+block content
+  .row.page-header
+    .col-lg-12
+      h1 Learning and Development
+  .row
+    .col-xs-12.col-md-9
+      .row
+        .col-xs-12
+          .panel.panel-primary.review-panel
+            .panel-heading
+              a.btn.btn-default.pull-right(href='/todo/task/new') Add Task
+              h2.panel-title Tasks
+            .panel-body.review-container
+              .row
+                .review
+                  .well.well-sm.review-header
+                    span.date 12/06/23 ---
+                    span.taskname       Complete the online course on digital marketing by the end of the month.                  
+                    a.btn Update                                
+                    a.btn Delete                                
+              .row
+                .review
+                  .well.well-sm.review-header
+                    span.date 14/07/23 ---
+                    span.taskname       Read one research article a week.                  
+                    a.btn Update                                
+                    a.btn Delete 
+              .row
+                .review
+                  .well.well-sm.review-header
+                    span.date 23/08/23 ---
+                    span.taskname       Attend a workshop on photography next month.                  
+                    a.btn Update                                
+                    a.btn Delete 
+    .col-xs-12.col-md-3
+      p.lead
+        | The quest for knowledge is unending, a flame that never dims. In this age of information, learning is the bridge between curiosity and mastery.

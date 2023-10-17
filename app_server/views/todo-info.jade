@@ -1,0 +1,39 @@
+extends layout
+
+block content
+  .row.page-header
+    .col-lg-12
+      h1 Personal Tasks
+  .row
+    .col-xs-12.col-md-9
+      .row
+        .col-xs-12
+          .panel.panel-primary.review-panel
+            .panel-heading
+              a.btn.btn-default.pull-right(href='/todo/task/new') Add Task
+              h2.panel-title Tasks
+            .panel-body.review-container
+              .row
+                .review
+                  .well.well-sm.review-header
+                    span.date 12/06/23 ---
+                    span.taskname       Call mom on her Birthday                  
+                    a.btn Update                                
+                    a.btn Delete                                
+              .row
+                .review
+                  .well.well-sm.review-header
+                    span.date 14/07/23 ---
+                    span.taskname       Book Dentist Appointment                  
+                    a.btn Update                                
+                    a.btn Delete 
+              .row
+                .review
+                  .well.well-sm.review-header
+                    span.date 23/08/23 ---
+                    span.taskname       Learn the basics of guitar by attending online lessons.                  
+                    a.btn Update                                
+                    a.btn Delete 
+    .col-xs-12.col-md-3
+      p.lead
+        | Whether it's pursuing a hobby, reconnecting with loved ones, or simply relishing quiet introspection, the choices you make here sculpt your identity. 

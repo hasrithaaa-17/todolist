@@ -1,0 +1,39 @@
+extends layout
+
+block content
+  .row.page-header
+    .col-lg-12
+      h1 Professional Tasks
+  .row
+    .col-xs-12.col-md-9
+      .row
+        .col-xs-12
+          .panel.panel-primary.review-panel
+            .panel-heading
+              a.btn.btn-default.pull-right(href='/todo/task/new') Add Task
+              h2.panel-title Tasks
+            .panel-body.review-container
+              .row
+                .review
+                  .well.well-sm.review-header
+                    span.date 12/06/23 ---
+                    span.taskname       Submit the quarterly report by Wednesday.                  
+                    a.btn Update                                
+                    a.btn Delete                                
+              .row
+                .review
+                  .well.well-sm.review-header
+                    span.date 14/07/23 ---
+                    span.taskname       Finish the PowerPoint presentation on the new project.                  
+                    a.btn Update                                
+                    a.btn Delete 
+              .row
+                .review
+                  .well.well-sm.review-header
+                    span.date 23/08/23 ---
+                    span.taskname       Attend the team meeting at 2 PM tomorrow.                  
+                    a.btn Update                                
+                    a.btn Delete 
+    .col-xs-12.col-md-3
+      p.lead
+        | In the ever-evolving labyrinth of the professional world, ambition meets action. The roads to success are paved with resilience, innovation, and strategy.

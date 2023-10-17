@@ -1,0 +1,39 @@
+extends layout
+
+block content
+  .row.page-header
+    .col-lg-12
+      h1 Health and Fitness
+  .row
+    .col-xs-12.col-md-9
+      .row
+        .col-xs-12
+          .panel.panel-primary.review-panel
+            .panel-heading
+              a.btn.btn-default.pull-right(href='/todo/task/new') Add Task
+              h2.panel-title Tasks
+            .panel-body.review-container
+              .row
+                .review
+                  .well.well-sm.review-header
+                    span.date 12/06/23 ---
+                    span.taskname       Meal prep for the week every Sunday.                  
+                    a.btn Update                                
+                    a.btn Delete                                
+              .row
+                .review
+                  .well.well-sm.review-header
+                    span.date 14/07/23 ---
+                    span.taskname       Drink at least 2 liters of water daily.                  
+                    a.btn Update                                
+                    a.btn Delete 
+              .row
+                .review
+                  .well.well-sm.review-header
+                    span.date 23/08/23 ---
+                    span.taskname       Begin meditation sessions for 10 minutes every morning.                  
+                    a.btn Update                                
+                    a.btn Delete 
+    .col-xs-12.col-md-3
+      p.lead
+        | Embrace a holistic approach to wellness, understanding that every heartbeat, every breath, and every drop of sweat is a step toward a more vibrant life.
